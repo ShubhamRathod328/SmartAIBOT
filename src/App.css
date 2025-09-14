@@ -1,0 +1,240 @@
+.home{
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+
+}
+nav{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color:white;
+  padding: 10PX 30PX;
+  font-size: 30px;;
+}
+
+.home{
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+#im{
+  height: 100px;
+  border-radius: 20px;
+  position: absolute;
+  top:0;
+  left:15%;
+  bottom: 250px;
+  box-shadow: 2px 2px 2px blue;
+}
+
+.logo{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+ color:white;
+ cursor: pointer;
+}
+.hero{
+ width: 100%;
+ height: 70%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ flex-wrap: wrap;
+ color: white;
+ gap: 20px;
+ padding: 10px 20px;
+}
+#tag{
+  font-size: 2vmax;
+}
+.cate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.upImg,.genimg,.chatImg{
+ padding: 10px 20px;
+ border: 2px solid white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+ font-size: 18px;
+ border-radius: 30px;
+ background: black;
+color: white;
+ cursor: pointer;
+
+}
+.upImg svg{
+  width:25px;
+  height: 25px;
+  color: rgba(172, 255, 47, 0.734);
+}
+.genimg svg{
+  width:25px;
+  height: 25px;
+  color: rgba(47, 154, 255, 0.912);
+}
+.chatImg svg{
+  width:25px;
+  height: 25px;
+  color: rgba(242, 196, 29, 0.734);
+}
+.upImg:hover,.genimg:hover,.chatImg:hover{
+    background-color: rgba(93, 108, 120, 0.756);
+   
+}
+
+.input-box{
+  width: 100%;
+  height: calc(100vh - 80px - 70%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 0px 20px;
+  position: fixed;
+  bottom:0;
+}
+
+#add,#submit{
+  width: 60px;
+  height: 60px;
+  border: 2px solid rgba(255, 255, 255, 0.582);
+  border-radius: 50px;
+   background-color: rgb(11, 15, 18);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+
+}
+#add svg{
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+
+#submit svg{
+  width: 25px;
+  height: 25px;
+  color: white;
+}
+form input{
+  max-width: 60%;
+  width: calc(100% - 120px);
+  height: 60px;
+  outline: none;
+  border: 2px solid rgba(162, 157, 157, 0.851);
+  border-radius: 30px;
+  background-color: rgb(11, 15, 18);
+  color: white;
+  padding: 10px 20px;
+  font-size: 19px;
+}
+.chat-page{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  overflow-y: auto;
+}
+.user,.ai{
+  width: 90%;
+  padding: 20px 30px;
+  color: white;
+  border: 2px solid rgba(162, 157, 157, 0.851);
+  background-color: rgb(11, 15, 18);
+  border-radius: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:20;
+  border-radius:20px;
+}
+
+.user img{
+  max-width:300px;
+  border-radius:20px;
+  width: 90%;
+}
+
+.ai img{
+  max-width:300px;
+  border-radius:20px;
+  width: 90%;
+}
+.pop-up{
+  width: 200px;
+  height: 100px;
+  position:absolute;
+  bottom: 150px;
+  left: 15%;
+  border: 2px solid rgba(162, 157, 157, 0.434);
+  background-color: rgb(11, 15, 18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  gap: 1px;
+  padding: 5px;
+
+
+}
+.select-up,.select-gen{
+  color: white;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.select-up:hover,.select-gen:hover{
+  background-color: rgba(70, 70, 71, 0.154);
+}
+.select-up svg{
+ color: rgba(172, 255, 47, 0.734);
+ width: 25px;
+ height: 25px;
+}
+
+.select-gen svg{
+color: rgba(47, 154, 255, 0.912);
+ width: 25px;
+ height: 25px;
+
+}
+#genimg svg{
+  color: rgba(47, 154, 255, 0.912);
+}
+
+@media(max-width: 500px){
+  #tag{
+    font-size: 20px;
+  }
+}
+
+
