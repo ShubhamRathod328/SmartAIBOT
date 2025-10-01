@@ -1,6 +1,6 @@
 import { prevUser } from "./context/UserContext"
 
-const API_Url="https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyCpM0TI_ZLasEOEIoqHhy_G9lquiUUIb9k"
+const API_Url=`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${import.meta.env.VITE_APP_TITLE}`
 
 export async function  generateResponse(params) {
     let RequestOption={
